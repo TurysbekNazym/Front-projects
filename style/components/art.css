@@ -1,0 +1,19 @@
+
+.row-one {
+  display: flex;
+  flex-direction: row ;
+  flex-flow: wrap;
+}
+
+        .row-one__img {
+          width: 25%;
+          height: 25%;
+          background: url('/images/solider.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+.row-two {
+  
+  display: flex;
+  flex-direction: row;
+}

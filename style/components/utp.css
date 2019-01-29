@@ -1,0 +1,87 @@
+.utp {
+ height: 100vh;
+ background-image: url('/images/first.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;   
+}
+    .utp-info{
+        display: flex;
+        color: white;
+        position: relative;
+        top: 250px;
+        flex-direction: column;
+        align-items: center;
+        font-size: 35px;
+       
+    }
+            .utp-info__element-bold {
+                font-weight: bold;
+            }
+       
+           .utp-info__element-blue {
+               color: rgb(46, 136, 238);
+           }
+
+           .utp-info__element-third {
+             
+              
+               text-align: center;    
+               font-size: 15px !important;  
+           }
+                  #line-one {
+                      width: 30px;
+                      color: white;
+                      border-bottom: 0.9px solid rgb(46, 136, 238);
+                      position: relative;
+                      top: 10px;
+                      left: -150px;
+                  }
+
+                  #line-two {
+                    width: 30px;
+                    color: white;
+                    border-bottom: 0.9px solid rgb(46, 136, 238);
+                    position: relative;
+                    top: -10px;
+                    right: -150px;
+                  }
+    .utp-social-sites {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        top: 300px;
+    }
+        .utp-social-sites__icon-twitter {
+            width: 10px;
+            height: 10px;
+            background: url('/images/twitter.png');
+            background-size: cover;
+            margin-left: 7px;
+        }
+
+        .utp-social-sites__icon-facebook {
+            width: 10px;
+            height: 10px;
+            background: url('/images/facebook.png');
+            background-size: cover;
+            margin-left: 7px;
+        }
+
+        .utp-social-sites__icon-google {
+            width: 10px;
+            height: 10px;
+            background: url('/images/google+.png');
+            background-size: cover;
+            margin-left: 7px;
+        }
+
+        .utp-social-sites__icon-circle {
+            width: 10px;
+            height: 10px;
+            background: url('/images/twitter.png');
+            background-size: cover;
+            margin-left: 7px;
+        }
+           

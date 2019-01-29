@@ -1,0 +1,97 @@
+.feature {
+  background: rgba(241, 241, 238, 0.959);
+}
+
+   .title {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding-top: 60px;
+       
+   }
+        .title h1 {
+            color: rgb(46, 136, 238);
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .title__heart  {
+            width: 12px;
+            height: 10px;
+            background: url('/images/heart.png');
+            background-size: cover;
+            position: relative;
+            top: 15px;
+        }
+
+        #title__line-one {
+            width: 50px;
+            color: white;
+            border-bottom: 0.9px solid rgb(219, 223, 230);
+            position: relative;
+            top: 20px;
+            left: -40px;
+        }
+
+        #title__line-two {
+          width: 50px;
+          color: white;
+          border-bottom: 0.9px solid rgb(219, 223, 230);
+          position: relative;
+          top: 9px;
+          right: -40px;
+        }
+
+   .content {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       padding: 60px 5px 60px;
+   }
+
+            .item {
+                    display: flex;
+                    flex-flow: column wrap;   
+                    align-content: space-between;
+                    width: 250px;
+                    height: auto;
+            }
+
+            .item h2 {
+                font-size: 15px;
+                font-weight: bold;
+                padding-left: 20px;
+            }
+
+            .item p {
+                font-size: 10px;
+                color: rgb(144, 144, 145);
+                padding-left: 46px;     
+            
+            }
+
+            .item-title {
+                display: flex;
+
+            }
+                .item-title__icon-pero {
+                    width: 25px;
+                    height: 25px;
+                    background: url('/images/pero.png');
+                    background-size: cover;
+                
+                }
+
+                .item-title__icon-pencil {
+                    width: 25px;
+                    height: 25px;
+                    background: url('/images/pencil.png');
+                    background-size: cover;
+                }
+
+                .item-title__icon-radio {
+                    width: 25px;
+                    height: 25px;
+                    background: url('/images/megaphone.png');
+                    background-size: cover;
+                }
+     
